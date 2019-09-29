@@ -1,4 +1,4 @@
-package cn.how2j.trend;
+package com.cf.trend;
 
 import cn.hutool.core.util.NetUtil;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

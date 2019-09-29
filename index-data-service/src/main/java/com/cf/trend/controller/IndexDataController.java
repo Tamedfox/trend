@@ -24,7 +24,6 @@ public class IndexDataController {
     public List<IndexData> get(@PathVariable("code") String code) throws Exception {
         System.out.println("current instance is :" + ipConfiguration.getPort());
         List<IndexData> data = indexDataService.get(code);
-        System.out.println("123");
         return data;
     }
 }
